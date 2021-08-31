@@ -1,0 +1,11 @@
+# vsi odjemalci
+pattern write $SYS/broker/connection/%c/state
+pattern readwrite avtomobili/%c
+pattern readwrite avtomobili/%c/#
+pattern readwrite avtomobili/%u
+pattern readwrite avtomobili/%u/#
+
+#administrator
+user uporabnik3 
+topic read avtomobili/#
+topic read $SYS/#
